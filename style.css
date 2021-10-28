@@ -29,13 +29,21 @@ font-family: "Poppins", sans-serif;
     transform: translate(-50%, -30%);
 }
 
-.content{
-
-}
+.content {
+    width: 100%;
+    background: rgb(24, 24, 24);
+    min-height: 100vh;
+    z-index: 2;
+    position: absolute;
+  }
 
 .content-images {
-
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+  }
 
 .text {
     padding: 2rem 20rem;
