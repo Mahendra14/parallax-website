@@ -6,6 +6,15 @@ color: rgb(221, 221, 221);
 font-family: "Poppins", sans-serif;
 }
 
+
+nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+  }
+
 .container{
     height: 100vh;
 }
@@ -24,11 +33,13 @@ font-family: "Poppins", sans-serif;
     /*using absolute to place the text myself*/
     position: absolute;
     font-size: 6rem;
-    top: 30%;
+    top: 25%;
     left: 50%;
+    /* here transform translate takes the lenght of the element and moves back 50%*/
     transform: translate(-50%, -30%);
 }
 
+/* here we will try to scroll this on top of the section*/
 .content {
     width: 100%;
     background: rgb(24, 24, 24);
