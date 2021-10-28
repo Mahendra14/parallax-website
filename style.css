@@ -21,7 +21,12 @@ font-family: "Poppins", sans-serif;
 }
 
 .main-title{
-
+    /*using absolute to place the text myself*/
+    position: absolute;
+    font-size: 6rem;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
 }
 
 .content{
