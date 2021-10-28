@@ -2,6 +2,37 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-color: rgb(207, 207, 207);
+color: rgb(221, 221, 221);
 font-family: "Poppins", sans-serif;
 }
+
+.container{
+    height: 100vh;
+}
+
+/* //now trying to put the images on top of one another */
+/* that is by position absolute */
+.container img{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main-title{
+
+}
+
+.content{
+
+}
+
+.content-images {
+
+}
+
+.text {
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+  }
